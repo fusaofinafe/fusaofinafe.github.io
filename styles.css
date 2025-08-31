@@ -3,9 +3,14 @@ body {
 }
 
 table {
-	color: white;width:30%;
+	color: white;
+	width: 30%;
 	margin: auto;
 	font-family: Verdana;
+}
+
+hr {
+	width: 95%;	
 }
 
 h1   {
@@ -19,11 +24,16 @@ p    {
 	font-family: Verdana;
 }
 
-img  {
+img {
 	display: block;
 	margin: auto;
 	-webkit-user-select: none;
 	user-select: none;
+}
+
+.otherTest{
+  display:inline-block;
+  vertical-align:text-top
 }
 
 a:link {
