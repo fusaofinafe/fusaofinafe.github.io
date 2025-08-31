@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+}
+
+table {
+	color: white;width:30%;
+	margin: auto;
+	font-family: Verdana;
+}
+
+h1   {
+	text-align: center;
+	color: white;
+	font-family: Consolas;
+}
+p    {
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+}
+
+img  {
+	display: block;
+	margin: auto;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+a:hover {
+	color: gray;
+}
+
+a:active {
+	color: lightgray;
+}
