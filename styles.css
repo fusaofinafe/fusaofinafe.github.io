@@ -9,11 +9,15 @@ table {
 	font-family: Verdana;
 }
 
+credits {
+	border-color: #96D4D4;
+}
+
 hr {
 	width: 95%;	
 }
 
-h1   {
+h1, h2, h3 {
 	text-align: center;
 	color: white;
 	font-family: Consolas;
