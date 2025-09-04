@@ -4,13 +4,20 @@ body {
 
 table {
 	color: white;
-	width: 32%;
 	margin: auto;
-	font-family: Verdana;
+	font-family: "Trebuchet MS", sans-serif;
 }
 
-credits {
-	border-color: #96D4D4;
+.bar {
+	color: white;
+	border: 5px solid black;
+	border-collapse: collapse;
+	margin: auto;
+	font-family: LcdSolid;
+}
+
+.ulink {
+	text-decoration: none;
 }
 
 hr {
@@ -23,6 +30,11 @@ h1, h2, h3 {
 	font-family: Consolas;
 }
 
+@font-face {
+   font-family: LcdSolid;
+   src: url(arquivos/LcdSolid.ttf);
+}
+
 p    {
 	text-align: center;
 	color: white;
@@ -32,13 +44,16 @@ p    {
 img {
 	display: block;
 	margin: auto;
-	-webkit-user-select: none;
-	user-select: none;
 }
 
-.otherTest{
-  display:inline-block;
-  vertical-align:text-top
+.noselect {
+	-webkit-user-select: none;
+	user-select: none;"
+}
+
+.otherTest {
+	display:inline-block;
+	vertical-align:text-top
 }
 
 a:link {
